@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Javascript II</title>
+
 	<style>
 	div
 	{
@@ -28,9 +29,10 @@
 </head>
 <body>
 
-	<div id="text-box-replace">
-		hello<br />
-		<a href="text-page" id="get-text">Show me the new text!</a><br />
+	<div>
+		<span id="text-box-replace">hello</span>
+		<br />
+		<a href="link-text" id="get-text">Show me the new text!</a><br /> 
 		<!--
 		Add an event listener and attach it to the "get-text" id.
 		When the link is clicked:
@@ -40,7 +42,7 @@
 	</div>
 
 	<div id="text-box-color">
-		I am the color green!<br />
+		<span id= "color-text">I am the color green!</span><br />
 		<a href="#" id="get-color">Show me the new color!</a><br />
 		<!--
 		Add an event listener and attach it to the "get-color" id.
@@ -52,7 +54,7 @@
 	</div>
 
 	<div id="melon-box">
-		<img src="http://mda.bigoven.com/pics/rs/256/melon-with-chile-salt-and-lime-3.jpg" /><br />
+		<img id= "melon-pic" src="http://mda.bigoven.com/pics/rs/256/melon-with-chile-salt-and-lime-3.jpg"/><br />
 		<a href="#" id="get-melon">Show me the new melon!</a><br />
 		<!--
 		Add an event listener and attach it to the "get-melon" id.
@@ -87,6 +89,6 @@
 	<script type="text/javascript">
 	
 	</script>
-
+	<script src="final.js"></script>
 </body>
 </html>
